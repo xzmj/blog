@@ -14,11 +14,11 @@
             <div class="col-md-8 offset-md-2">
                 @forelse($discussions as $discussion)
                 <div class="media my-3">
-{{--                    <div class="media-left mr-3">--}}
-{{--                        <a href="{{ url('discussion', ['id' => $discussion->id]) }}">--}}
-{{--                            <img class="media-object rounded-circle" width="50" src="{{ $discussion->user->avatar ?? config('blog.default_avatar') }}">--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
+                    <div class="media-left mr-3">
+                        <a href="{{ url('discussion', ['id' => $discussion->id]) }}">
+                            <img class="media-object rounded-circle" width="50" src="{{ $discussion->user->avatar ?? config('blog.default_avatar') }}">
+                        </a>
+                    </div>
                     <div class="media-body">
                         <h5 class="media-heading">
                             <a href="{{ url('discussion', ['id' => $discussion->id]) }}">
