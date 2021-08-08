@@ -14,12 +14,12 @@
                             {{ $article->title }}
                         </a>
                     </h6>
-                    <div class="meta">
-                        <span class="cinema">{{ $article->subtitle }}</span>
-                    </div>
-{{--                    <div class="description">--}}
-{{--                        {{ $article->meta_description }}--}}
+{{--                    <div class="meta">--}}
+{{--                        <span class="cinema">{{ $article->subtitle }}</span>--}}
 {{--                    </div>--}}
+                    <div class="description">
+                        {{ $article->meta_description }}
+                    </div>
                     <div class="extra">
                         @foreach($article->tags as $tag)
                         <a href="{{ url('tag', ['tag' => $tag->tag]) }}">
