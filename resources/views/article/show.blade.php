@@ -48,15 +48,15 @@
         </div>
     </div>
 
-	<comment title="Comments"
-	commentable-type="articles"
-	commentable-id="{{ $article->id }}"
-	@can('comment',$article)
-	username="{{ Auth::user()->name }}"
-	user-avatar="{{ Auth::user()->avatar }}"
-	can-comment
-	@endcan
-	></comment>
+{{--	<comment title="Comments"--}}
+{{--	commentable-type="articles"--}}
+{{--	commentable-id="{{ $article->id }}"--}}
+{{--	@can('comment',$article)--}}
+{{--	username="{{ Auth::user()->name }}"--}}
+{{--	user-avatar="{{ Auth::user()->avatar }}"--}}
+{{--	can-comment--}}
+{{--	@endcan--}}
+{{--	></comment>--}}
 
 @endsection
 
