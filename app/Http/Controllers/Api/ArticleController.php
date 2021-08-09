@@ -6,6 +6,7 @@ use App\Article;
 use App\Scopes\DraftScope;
 use Illuminate\Http\Request;
 use App\Http\Requests\ArticleRequest;
+use Illuminate\Support\Facades\Auth;
 
 class ArticleController extends ApiController
 {
@@ -18,6 +19,7 @@ class ArticleController extends ApiController
      */
     public function index(Request $request)
     {
+       return \Auth::id();
         $articles = Article::checkAuth()->filter($request->all())->orderBy('created_at', 'desc')->paginate(10);
 
         return $this->response->collection($articles);
@@ -32,14 +34,11 @@ class ArticleController extends ApiController
      */
     public function store(ArticleRequest $request)
     {
-//        $data = array_merge($request->all(), [
-//            'user_id' => \Auth::id(),
-//            'last_user_id' => \Auth::id(),
-//        ]);
         $data = array_merge($request->all(), [
-            'user_id' => 1,
-            'last_user_id' => 1,
+            'user_id' => \Auth::id(),
+            'last_user_id' => \Auth::id(),
         ]);
+
 
         $data['is_draft'] = isset($data['is_draft']);
         $data['is_original'] = isset($data['is_original']);

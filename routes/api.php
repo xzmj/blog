@@ -2,7 +2,7 @@
 
 Route::group([
 //    'middleware' => ['auth:api', 'admin'],
-    'middleware' => ['api'],
+    'middleware' => ['web'],
     'namespace' => 'Api',
 ], function () {
     Route::get('statistics', 'HomeController@statistics');
@@ -79,6 +79,7 @@ Route::group([
 });
 
 Route::group([
+    'middleware' => ['web'],
     'namespace' => 'Api',
 ], function () {
     // File Upload
