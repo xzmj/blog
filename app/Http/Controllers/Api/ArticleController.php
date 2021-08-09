@@ -19,7 +19,7 @@ class ArticleController extends ApiController
      */
     public function index(Request $request)
     {
-       return \Auth::id();
+
         $articles = Article::checkAuth()->filter($request->all())->orderBy('created_at', 'desc')->paginate(10);
 
         return $this->response->collection($articles);
