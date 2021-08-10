@@ -15,32 +15,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*========================*/
 /*===  2. Common       ===*/
 /*========================*/
-/*@font-face {*/
-/*  font-family: 'msyh';*/
-/*  src: url('../fonts/msyh.eot');*/
-/*  src: url('../fonts/msyh.eot?#iefix') format('embedded-opentype'),*/
-/*  url('../fonts/msyh.woff2') format('woff2'),*/
-/*  url('../fonts/msyh.woff') format('woff'),*/
-/*  url('../fonts/msyh.ttf') format('truetype'),*/
-/*  url('../fonts/msyh.svg#msyh') format('svg');*/
-/*  font-weight: normal;*/
-/*  font-style: normal;*/
-/*}*/
-
 @font-face {
-    font-family: 'msyh';
-
-    font-style: normal;
-
-    font-weight: normal;
-
-    src: url('../fonts/msyh.ttf') format('truetype');
-
-}
-
-body {
-    font-family: msyh, DejaVu Sans,sans-serif;
-
+  font-family: 'feedmoment_webfont';
+  src: url('../fonts/feedmoment_webfont.eot');
+  src: url('../fonts/feedmoment_webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/feedmoment_webfont.woff2') format('woff2'),
+  url('../fonts/feedmoment_webfont.woff') format('woff'),
+  url('../fonts/feedmoment_webfont.ttf') format('truetype'),
+  url('../fonts/feedmoment_webfont.svg#feedmoment_webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 #wrapper {
@@ -496,7 +480,7 @@ ul.testimonialList cite {
 
 
 .success {
-  font-family:'msyh',Tahoma, Arial; font-size:12px;
+  font-family:'feedmoment_webfont',Tahoma, Arial; font-size:12px;
 
   position:absolute;
   margin:30px 0px 0px 400px;
@@ -519,7 +503,7 @@ ul.testimonialList cite {
 }
 
 body {
-  font-family:'msyh', Arial, Helvetica, sans-serif;
+  font-family:'feedmoment_webfont', Arial, Helvetica, sans-serif;
   background-color:#e8e9ed;
   color:#353535;
 }
@@ -539,7 +523,7 @@ a:hover {
 
 h1 {
   color:#1f3862;
-  font-family:'msyh', 'Oswald';
+  font-family:'feedmoment_webfont', 'Oswald';
   text-transform: uppercase;
   font-weight:bold;
   font-size:60px;
@@ -548,14 +532,14 @@ h1 {
 
 h2 {
   color:#DF1E37;
-  font-family:'msyh', 'Oswald';
+  font-family:'feedmoment_webfont', 'Oswald';
   margin-top:10px;
   font-size: 30px;
 }
 
 h3 {
   color:#e42b48;
-  font-family:'msyh', Helvetica, sans-serif;
+  font-family:'feedmoment_webfont', Helvetica, sans-serif;
 }
 
 h4 {
@@ -566,7 +550,7 @@ h4 {
 h5 {
 
   color:#142950;
-  font-family:'msyh', 'Oswald';
+  font-family:'feedmoment_webfont', 'Oswald';
   font-weight:normal;
   font-size:25px;
 }
@@ -574,7 +558,7 @@ h5 {
 #main h5 {
   color:#142950;
   background: url(../images/section-bg.png) no-repeat;
-  font-family: 'msyh','Oswald';
+  font-family: 'feedmoment_webfont','Oswald';
   text-transform: uppercase;
   height: 93px;
   width: 610px;
@@ -591,7 +575,7 @@ h5 {
 
 
 h6 {
-  font-family:'msyh',Tahoma, Geneva, sans-serif;
+  font-family:'feedmoment_webfont',Tahoma, Geneva, sans-serif;
   color:#545454;
   font-weight:normal;
 }
@@ -622,10 +606,10 @@ h6 {
   color:#545454;
 }
 li {
-  font-family:'msyh',Tahoma, Geneva, sans-serif;
+  font-family:'feedmoment_webfont',Tahoma, Geneva, sans-serif;
 }
 p {
-  font-family:'msyh',Tahoma, Geneva, sans-serif;
+  font-family:'feedmoment_webfont',Tahoma, Geneva, sans-serif;
 }
 .year {
   color:#545454;
@@ -634,12 +618,12 @@ p {
 .tag {
   color:#fff;
   background:#5fb053;
-  font-family:'msyh',Tahoma, Geneva, sans-serif;
+  font-family:'feedmoment_webfont',Tahoma, Geneva, sans-serif;
   background:url(../images/tag-big.png) no-repeat !important;
 }
 .winner_tag {
   color:#FFF;
-  font-family:'msyh',Tahoma, Geneva, sans-serif;
+  font-family:'feedmoment_webfont',Tahoma, Geneva, sans-serif;
   background:url(../images/winner-big.png) no-repeat !important;
 }
 
