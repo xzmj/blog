@@ -101,7 +101,7 @@ class UserController extends Controller
             $pdf = PDF::loadView('user.resume');
             // download pdf
             $pdf->download('李峻峰简历.pdf');
-//        return view('user.resume');
+        return view('user.resume');
 
     }
 
