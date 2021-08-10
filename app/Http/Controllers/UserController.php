@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Auth;
+use PDF;
+use SnappyImage;
 use Hash;
 use Validator;
 use Illuminate\Http\Request;
@@ -84,6 +86,23 @@ class UserController extends Controller
         $discussions = $user->discussions;
 
         return view('user.discussions', compact('user', 'discussions'));
+    }
+
+    public function resume()
+    {
+
+
+        return view('user.resume');
+    }
+    public function resumePdf(){
+
+
+            // pass view file
+            $pdf = PDF::loadView('user.resume');
+            // download pdf
+            $pdf->download('李峻峰简历.pdf');
+//        return view('user.resume');
+
     }
 
     /**

@@ -12,7 +12,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link navbar-item-first" href="{{ url('/') }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('resume') }}">{{ lang('Discussions') }}</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

@@ -36,7 +36,10 @@ Route::group(['prefix' => 'user'], function () {
         Route::get('following', 'UserController@following');
         Route::get('discussions', 'UserController@discussions');
     });
+
 });
+Route::get('resume', 'UserController@resume');
+Route::get('resume/pdf', 'UserController@resumePdf');
 
 // User Setting
 Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
