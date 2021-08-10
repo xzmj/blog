@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title>我的简历</title>
     <meta name="robots" content="index,follow"/>
-    <link href={{ public_path('css\resume.css') }} rel="stylesheet" type="text/css" media="screen" />
+    <link href={{ asset('css/resume.css') }} rel="stylesheet" type="text/css" media="screen" />
     <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
 
 </head>
