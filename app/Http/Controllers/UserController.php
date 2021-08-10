@@ -98,10 +98,11 @@ class UserController extends Controller
 
 
             // pass view file
-            $pdf = PDF::loadView('user.resume');
-            // download pdf
-         return   $pdf->download('李峻峰简历.pdf');
+//            $pdf = PDF::loadView('user.resume');
+//            // download pdf
+//         return   $pdf->download('李峻峰简历.pdf');
 //        return view('user.resume');
+     return   PDF::loadView('user.resume')->inline('test.pdf');
 
     }
 
