@@ -20,7 +20,7 @@
         <div class="avatar">
 {{--            <img src="images/47840736.jpg"/>--}}
             <img src="data:image/jpeg;base64,
-{{ base64_encode(@file_get_contents(url('images/47840736.jpg'))) }}">
+{{ base64_encode(@file_get_contents(url('images/xzmj_avatar.jpg'))) }}">
         </div>
         <div class="name">
             <h1>李峻峰</h1>
