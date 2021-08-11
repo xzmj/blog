@@ -18,7 +18,9 @@
 <header class="header">
     <div class="headerwrapper">
         <div class="avatar">
-            <img src="images/47840736.jpg"/>
+{{--            <img src="images/47840736.jpg"/>--}}
+            <img src="data:image/jpeg;base64,
+{{ base64_encode(@file_get_contents(url('images/47840736.jpg'))) }}">
         </div>
         <div class="name">
             <h1>李峻峰</h1>
@@ -127,7 +129,9 @@
                        公司自己的产品线，我在进入公司后一直在参与该产品的迭代升级，后来随着技术团队的扩大，小程序迭代越来越快，现在已经是一个比较成熟的投融资平台。在整个项目开发过程中，我担任的主要是参与后台接口的开发。<strong>用的主要技术：后台框架laravel、LNMP服务器环境、redis、负载均衡，Mysql数据库。开发工具：PHPStorm</strong>
                     </p>
                     <p class="project_display">
-                        <img class="qrcode" src="images/wts.jpg">
+{{--                        <img class="qrcode" src="images/wts.jpg">--}}
+                        <img src="data:image/jpeg;base64,
+{{ base64_encode(@file_get_contents(url('images/wts.jpg'))) }}">
                     </p>
                 </div>
 
