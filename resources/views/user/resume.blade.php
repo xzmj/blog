@@ -130,7 +130,7 @@
                     </p>
                     <p class="project_display">
 {{--                        <img class="qrcode" src="images/wts.jpg">--}}
-                        <img src="data:image/jpeg;base64,
+                        <img class="qrcode" src="data:image/jpeg;base64,
 {{ base64_encode(@file_get_contents(url('images/wts.jpg'))) }}">
                     </p>
                 </div>
