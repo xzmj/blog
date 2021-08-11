@@ -30,7 +30,7 @@
     <style type="text/css">
         .slogen{
             font-size:60px;
-            font-family: "feedmoment_webfont", Helvetica, sans-serif;
+            font-family: "AGENCYB", Helvetica, sans-serif;
             font-weight: bold;
             margin-bottom: 60px;
         }

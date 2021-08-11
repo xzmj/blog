@@ -6,6 +6,16 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
+@font-face {
+    font-family: 'AGENCYB';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/AGENCYB.TTF') format('truetype');
+}
+/*body {*/
+/*    font-family: feedmoment_webfont, DejaVu Sans,sans-serif;*/
+/*}*/
+
 .fa,
 .fas,
 .far,
@@ -10568,6 +10578,7 @@ input[type=button].btn-block {
 }
 
 .nav-link {
+    font-family: 'AGENCYB';
   display: block;
   padding: 0.5rem 1rem;
 }
@@ -11071,6 +11082,7 @@ input[type=button].btn-block {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -20506,10 +20518,11 @@ i.large {
 }
 
 .list .media .media-body .media-heading > a {
-  color: #34495e;
-  font-size: 1.2rem;
-  display: inline-block;
-  font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+
 }
 
 .list .media .media-body .media-heading > a:hover {
@@ -20524,10 +20537,10 @@ i.large {
 }
 
 .list .media .media-body .description {
-  margin-top: 0.6em;
-  font-size: 1.2em;
-  line-height: 1.4285em;
-  color: #95a5a6;
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #15171a;
 }
 
 .list .media .media-body .extra {
