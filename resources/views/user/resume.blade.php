@@ -191,7 +191,7 @@
 
                 <div class="contact_Info_items">
                     <ul>
-                        <li class="web_icon"><a href="http://ljf.xzmj.top">个人博客：ljf.xzmj.top</a></li>
+                        <li class="web_icon"><a href="http://xzmj.top">个人博客：xzmj.top</a></li>
 
                         <li class="msg_icon">邮箱：1037985399@qq.com</li>
 
